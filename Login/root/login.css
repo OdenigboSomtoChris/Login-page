@@ -1,0 +1,164 @@
+body {
+    font-family: comic sans ms, cursive;
+    background-color: #f0f2f5;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.shadow {
+    box-shadow: 0px 0px 20px 0px rgb(202, 212, 216);
+}
+
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+} 
+
+b {
+    font-size: 3em;
+    color: dodgerblue;
+}
+
+p.help{
+    text-align: justify;
+    font-size: 1.3em;  
+    margin-right: auto;
+    margin-left: auto; 
+    width: 400px;
+}
+
+.login-body {
+    border-radius: 10px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    height: 330px;
+    width: 400px;
+}
+
+
+.login-content {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    border-radius: 6px;
+    border: solid 0.5px #cccccc;
+    padding: 10px 4.165%;
+    margin-bottom: 12px;
+    font-size: 1em;
+    color: bfb7b7;
+    margin-right: auto;
+    margin-left: auto;
+    height: 25px;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    border: solid 1px #1877f2;
+    outline: solid 2px rgb(24, 78, 242, 0.3);
+}
+
+.click {
+    background-color: #1877f2;
+    margin-top: 2%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 25px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.password {
+    margin-top: 5%;
+    text-align: center;
+    color: #1877f2;
+    font-size: 0.8em;
+
+}
+
+hr {
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.account {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.account {
+    text-transform: capitalize;
+    color: white;
+    background-color: limegreen;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+
+    .body {
+        display: flex;
+        align-items: center;
+        margin-top: 130px;
+    }
+
+
+    .logo {
+        text-align: left;
+        margin: auto;
+    }
+
+    .login-body {
+        margin: auto;
+        width: 380px;   
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    p.help {
+        font-size: 1.5em;
+    }
+
+    b {
+        font-size: 3.5em;
+    }
+}
